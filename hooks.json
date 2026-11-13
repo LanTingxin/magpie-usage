@@ -1,0 +1,19 @@
+{
+  "magpie-usage-reporter": {
+    "enabled": true,
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "py -3 -B scripts/sync_usage.py --hook || python3 -B scripts/sync_usage.py --hook || python -B scripts/sync_usage.py --hook",
+        "timeout": 10
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "py -3 -B scripts/sync_usage.py --hook || python3 -B scripts/sync_usage.py --hook || python -B scripts/sync_usage.py --hook",
+        "timeout": 10
+      }
+    ]
+  }
+}

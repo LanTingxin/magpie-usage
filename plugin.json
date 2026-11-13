@@ -1,0 +1,28 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "magpie-usage",
+  "displayName": "Magpie Usage Reporter",
+  "version": "1.1.0",
+  "description": "Automatically reports native model and subagent token usage, reasoning effort, TTFT, and output decode speed (TPS) to local Magpie.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "查看 Antigravity 到 Magpie 的用量同步状态",
+    "把 Antigravity 历史会话用量补录同步到 Magpie",
+    "演练检查待上报给 Magpie 的 Antigravity 调用统计"
+  ],
+  "author": {
+    "name": "LanTingxin",
+    "url": "https://github.com/LanTingxin"
+  },
+  "homepage": "https://github.com/LanTingxin/magpie-usage",
+  "repository": "https://github.com/LanTingxin/magpie-usage",
+  "license": "MIT",
+  "keywords": [
+    "magpie",
+    "usage",
+    "tokens",
+    "telemetry",
+    "latency",
+    "tps"
+  ]
+}

@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+*.swp
+
+# Runtime / temporary files
+*.tmp
+state.json
